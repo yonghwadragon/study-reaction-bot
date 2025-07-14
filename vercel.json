@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/api/slack/events",
-      "methods": ["GET", "POST"],
+      "methods": ["POST"],
       "dest": "api/slack/events/index.py"
     }
   ]

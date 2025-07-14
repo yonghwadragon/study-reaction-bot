@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/slack/events.py",
+      "src": "api/slack/events/index.py",
       "use": "@vercel/python"
     }
   ],
@@ -10,7 +10,7 @@
     {
       "src": "/api/slack/events",
       "methods": ["POST"],
-      "dest": "api/slack/events.py"
+      "dest": "api/slack/events/index.py"
     }
   ]
 }
